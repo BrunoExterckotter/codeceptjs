@@ -1,0 +1,30 @@
+{
+  "name": "brunolinx",
+  "version": "1.0.0",
+  "description": "Teste para a Linx",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "webdriverio": "^5.4.17"
+  },
+  "scripts": {
+    "preinstall": "npm install -g codeceptjs",
+    "selenium": "selenium-standalone install && selenium-standalone start",
+    "postscript":"selenium-standalone start",
+    "test": "mocha"
+  },
+  "keywords": [
+    "linx",
+    "bruno",
+    "test",
+    "teste",
+    "automation",
+    "linux",
+    "ubuntu"
+  ],
+  "author": "Bruno Exterckötter",
+  "license": "ISC"
+}
